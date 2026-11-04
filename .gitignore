@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Model checkpoints
+*.pt
+*.pth
+
+# Training outputs
+gradcam_fn_*/
+gradcam_fn_baseline_*/
+final_results.txt
+final_results_baseline.txt
+bbbc041_transfer_results.csv
+
+# Dataset (too large for VCS)
+cell_images/
+bbbc041/
+malaria.zip
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+.DS_Store
+
+__MACOSX/
+.venv/
+venv/
